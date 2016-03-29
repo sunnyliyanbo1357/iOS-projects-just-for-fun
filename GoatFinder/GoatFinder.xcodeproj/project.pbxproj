@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19308605B525774B9D0980C6 /* Pods_GoatFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7CD409ACB536C63D9573F0E /* Pods_GoatFinder.framework */; };
+		6529BB391C88FEA2009B9D72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529BB381C88FEA2009B9D72 /* AppDelegate.swift */; };
+		6529BB3B1C88FEA2009B9D72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529BB3A1C88FEA2009B9D72 /* ViewController.swift */; };
+		6529BB3E1C88FEA2009B9D72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6529BB3C1C88FEA2009B9D72 /* Main.storyboard */; };
+		6529BB401C88FEA2009B9D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6529BB3F1C88FEA2009B9D72 /* Assets.xcassets */; };
+		6529BB431C88FEA2009B9D72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6529BB411C88FEA2009B9D72 /* LaunchScreen.storyboard */; };
+		6529BB4B1C89097D009B9D72 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529BB4A1C89097D009B9D72 /* Models.swift */; };
+		6529BB4D1C890E71009B9D72 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529BB4C1C890E71009B9D72 /* CellView.swift */; };
+		6529BB4F1C89111C009B9D72 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529BB4E1C89111C009B9D72 /* TableViewController.swift */; };
+		6529BB511C8927A8009B9D72 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529BB501C8927A8009B9D72 /* MapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AADF902A40DD95B8777A342 /* Pods-GoatFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoatFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoatFinder/Pods-GoatFinder.release.xcconfig"; sourceTree = "<group>"; };
+		59CDE26F1B7D7C7D3F645519 /* Pods-GoatFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoatFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoatFinder/Pods-GoatFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		6529BB351C88FEA2009B9D72 /* GoatFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoatFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6529BB381C88FEA2009B9D72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6529BB3A1C88FEA2009B9D72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6529BB3D1C88FEA2009B9D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6529BB3F1C88FEA2009B9D72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6529BB421C88FEA2009B9D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6529BB441C88FEA2009B9D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6529BB4A1C89097D009B9D72 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		6529BB4C1C890E71009B9D72 /* CellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		6529BB4E1C89111C009B9D72 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		6529BB501C8927A8009B9D72 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		E7CD409ACB536C63D9573F0E /* Pods_GoatFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoatFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6529BB321C88FEA2009B9D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19308605B525774B9D0980C6 /* Pods_GoatFinder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		482CB2C2C6294BB2B599D857 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59CDE26F1B7D7C7D3F645519 /* Pods-GoatFinder.debug.xcconfig */,
+				2AADF902A40DD95B8777A342 /* Pods-GoatFinder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6529BB2C1C88FEA2009B9D72 = {
+			isa = PBXGroup;
+			children = (
+				6529BB371C88FEA2009B9D72 /* GoatFinder */,
+				6529BB361C88FEA2009B9D72 /* Products */,
+				482CB2C2C6294BB2B599D857 /* Pods */,
+				D5530E9A516BDE13D4BB4D23 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6529BB361C88FEA2009B9D72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6529BB351C88FEA2009B9D72 /* GoatFinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6529BB371C88FEA2009B9D72 /* GoatFinder */ = {
+			isa = PBXGroup;
+			children = (
+				6529BB381C88FEA2009B9D72 /* AppDelegate.swift */,
+				6529BB501C8927A8009B9D72 /* MapViewController.swift */,
+				6529BB4A1C89097D009B9D72 /* Models.swift */,
+				6529BB3A1C88FEA2009B9D72 /* ViewController.swift */,
+				6529BB3C1C88FEA2009B9D72 /* Main.storyboard */,
+				6529BB4E1C89111C009B9D72 /* TableViewController.swift */,
+				6529BB4C1C890E71009B9D72 /* CellView.swift */,
+				6529BB3F1C88FEA2009B9D72 /* Assets.xcassets */,
+				6529BB411C88FEA2009B9D72 /* LaunchScreen.storyboard */,
+				6529BB441C88FEA2009B9D72 /* Info.plist */,
+			);
+			path = GoatFinder;
+			sourceTree = "<group>";
+		};
+		D5530E9A516BDE13D4BB4D23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7CD409ACB536C63D9573F0E /* Pods_GoatFinder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6529BB341C88FEA2009B9D72 /* GoatFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6529BB471C88FEA2009B9D72 /* Build configuration list for PBXNativeTarget "GoatFinder" */;
+			buildPhases = (
+				E36AAD359287925B620929B5 /* Check Pods Manifest.lock */,
+				6529BB311C88FEA2009B9D72 /* Sources */,
+				6529BB321C88FEA2009B9D72 /* Frameworks */,
+				6529BB331C88FEA2009B9D72 /* Resources */,
+				E702C4BC1DA86850C323DAE1 /* Embed Pods Frameworks */,
+				2C034BBF377A809C37F8D524 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoatFinder;
+			productName = GoatFinder;
+			productReference = 6529BB351C88FEA2009B9D72 /* GoatFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6529BB2D1C88FEA2009B9D72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Daniel Hauagge";
+				TargetAttributes = {
+					6529BB341C88FEA2009B9D72 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 72MEUHWN7S;
+					};
+				};
+			};
+			buildConfigurationList = 6529BB301C88FEA2009B9D72 /* Build configuration list for PBXProject "GoatFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6529BB2C1C88FEA2009B9D72;
+			productRefGroup = 6529BB361C88FEA2009B9D72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6529BB341C88FEA2009B9D72 /* GoatFinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6529BB331C88FEA2009B9D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6529BB431C88FEA2009B9D72 /* LaunchScreen.storyboard in Resources */,
+				6529BB401C88FEA2009B9D72 /* Assets.xcassets in Resources */,
+				6529BB3E1C88FEA2009B9D72 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C034BBF377A809C37F8D524 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoatFinder/Pods-GoatFinder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E36AAD359287925B620929B5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E702C4BC1DA86850C323DAE1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoatFinder/Pods-GoatFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6529BB311C88FEA2009B9D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6529BB4D1C890E71009B9D72 /* CellView.swift in Sources */,
+				6529BB511C8927A8009B9D72 /* MapViewController.swift in Sources */,
+				6529BB4B1C89097D009B9D72 /* Models.swift in Sources */,
+				6529BB3B1C88FEA2009B9D72 /* ViewController.swift in Sources */,
+				6529BB4F1C89111C009B9D72 /* TableViewController.swift in Sources */,
+				6529BB391C88FEA2009B9D72 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6529BB3C1C88FEA2009B9D72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6529BB3D1C88FEA2009B9D72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6529BB411C88FEA2009B9D72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6529BB421C88FEA2009B9D72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6529BB451C88FEA2009B9D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6529BB461C88FEA2009B9D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6529BB481C88FEA2009B9D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59CDE26F1B7D7C7D3F645519 /* Pods-GoatFinder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = GoatFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunny.GoatFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		6529BB491C88FEA2009B9D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AADF902A40DD95B8777A342 /* Pods-GoatFinder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = GoatFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunny.GoatFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6529BB301C88FEA2009B9D72 /* Build configuration list for PBXProject "GoatFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6529BB451C88FEA2009B9D72 /* Debug */,
+				6529BB461C88FEA2009B9D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6529BB471C88FEA2009B9D72 /* Build configuration list for PBXNativeTarget "GoatFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6529BB481C88FEA2009B9D72 /* Debug */,
+				6529BB491C88FEA2009B9D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6529BB2D1C88FEA2009B9D72 /* Project object */;
+}

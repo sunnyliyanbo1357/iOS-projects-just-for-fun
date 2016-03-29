@@ -1,0 +1,6 @@
+framework module Pods_GoatFinder {
+  umbrella header "Pods-GoatFinder-umbrella.h"
+
+  export *
+  module * { export * }
+}
